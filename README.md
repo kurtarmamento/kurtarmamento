@@ -13,18 +13,28 @@ Ingests sensor readings over HTTP, validates payloads, stores latest-per-device,
 - Integrates with my IoT pipeline (MQTT → Node-RED → HTTP ingest).
 - [Repo](https://github.com/kurtarmamento/telemetry-ingest-api)
 
+### PyTorch Generative Models
+Reproducible training/evaluation pipeline based on the Fashion MNIST dataset.
+- Currently working on GAN implementation
+- [Repo](https://github.com/kurtarmamento/pytorch-generative-models)
+
+## WIPs
 ### Prostate MRI Segmentation (U-Net)
-Reproducible training/evaluation pipeline with metrics and artifacts.
+Reproducible training/evaluation pipeline with metrics and artifacts based on HipMRI data.
+- Currently squashing bugs with image rendering
 - [Repo](https://github.com/kurtarmamento/prostate-unet)
 
-### Supporting work
-- [Pytorch Generative Models](https://github.com/kurtarmamento/pytorch-generative-models)
-- [Unity ML-Agents Biped](https://github.com/kurtarmamento/bipedal-ml-agent)
+### Unity ML-Agents Biped
+Bipedal ML Agent learning to walk in Unity.
+- Currently stabalising training towards steps rather than sliding
+- [Repo](https://github.com/kurtarmamento/bipedal-ml-agent)
 
 ## Technical focus
 - **Languages:** Python, Lua, JavaScript (Node-RED), C# (Unity)
 - **IoT:** MQTT, Node-RED, ESP8266/NodeMCU, automation/alerts
 - **Tooling:** Docker/Compose, Git/GitHub, Windows dev workflows
+- **Machine Learning:** UNet, Improved UNet, VAE
+
 
 ## Contacts
 - [GitHub](https://github.com/kurtarmamento)
