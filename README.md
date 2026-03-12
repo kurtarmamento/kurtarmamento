@@ -19,6 +19,11 @@ Reproducible training/evaluation pipeline based on the Fashion MNIST dataset.
 - [Repo](https://github.com/kurtarmamento/pytorch-generative-models)
 
 ## WIPs
+### Lua Remote Pump Monitor
+A simulated pump controller that detects operating faults and communicates with an operator using MQTT, including remote control commands and fault reporting.
+- Currently adding more features for more realistic simulation
+- [Repo](https://github.com/kurtarmamento/lua-remote-pump-monitor)
+
 ### Prostate MRI Segmentation (U-Net)
 Reproducible training/evaluation pipeline with metrics and artifacts based on HipMRI data.
 - Currently squashing bugs with image rendering
